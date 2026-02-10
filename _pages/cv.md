@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
+permalink: /
 author_profile: true
 redirect_from:
   - /resume
@@ -11,46 +11,49 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **MSc Bihar in Big Data and Artificial**, _Ecole Supérieure des Technologies Industrielles Appliquées (ESTIA)_, Bidart, France, 2026 (expected)
+* **MEng in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2020 
+* **Bachelor in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2018 
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* _09/2022 - 09/2025_ : **Consultant Data Scientist** at Inchtechs, Yaounde, Cameroon
+  * Built a machine learning model to predict raw material prices (pale malt, maize grits) for a brewing company
+  * Developed a machine learning model to predict the optimal timing for publishing revocation certificates, based on log data
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* _01/2022 -_: **Telecommunications Engineer** at Ministry of Posts and Telecommunications (MINPOSTEL)
+  * Authored the project document outlining the development of an AI Assistant tailored to MINPOSTEL’s needs
+  * Member of the Scientific Committee of the National Consultation on Artificial Intelligence (CONIA) held on from 25 to 26 June 2024
+  * Member of the Scientific Committee of the Central Africa Internet Governance Forum (AC - IGF) held on from 30 August to 01st September 2023
+  
+* _01/2021 - 01/2022_: **Artificial Intelligence Intern** at Inchtechs, Yaounde, Cameroon
+  * Developed Python APIs 
+  * Trained participants on Machine Learning concepts during “Open Technology” workshops
+  * Built and deployed Machine Learning models
+  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **API Development**: Flask, Fast API, Spring Boot
+* **Database**: MongoDB, PostGreSQL, Elastic Search
+* **Distributed Systems and Big Data**: PySpark, MQTT, Kafka
+* **Embedded Systems**: Arduino, Raspberry Pi 
+* **Frameworks Machine and Deep Learning**: Pytorch, TensorFlow, Scikit-learn
+* **MLOps**: Mlflow, Prefect, Grafana, Git, Docker, Makefile
+* **Network Simulators**: Mininet, Cisco Packet Tracer
+* **Programming Languages**: Python, Matlab, SQL
+* **Frameworks WebScraping**: Beautiful Soup, Selenium and Scrapy
 
-Publications
+Summer Schools
 ======
-  <ul>{% for post in site.publications reversed %}
+  <ul>{% for post in site.summer_school reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Projects
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
+  <ul>{% for post in site.projects reversed %}
+    {% include archive-single-cv.html  %}
   {% endfor %}</ul>
   
 Teaching
@@ -58,7 +61,11 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Certificates and awards
 ======
-* Currently signed in to 43 different slack teams
+  <ul>{% for post in site.certificates reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+

@@ -9,39 +9,38 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "Serge Ndoumin"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Serge"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://nd-serge.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "nd-serge/nd-serge.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "nd-profile.png" # filename of your profile photo placed in /images/
+  name             : "Serge Ndoumin"
+  pronouns         : "he/him" # example: "she/her"  
+  bio              : "Hello, I am Serge. I am passionate about data interested in applying Artificial Intelligence to next-generation network technologies." # A short bio or description about yourself
+  location         : "Bidart, France"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "ndoumins@gmail.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0008-6672-9335"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +50,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : "nd-serge" # Username - Update with your username on the site
+  kaggle           : "sergendoumin"  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "serge-ndoumin"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -81,6 +80,7 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
@@ -221,33 +221,26 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  certificates:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
+  research:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
-  talks:
+  summer_school:
     output: true
     permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+  
   # _pages
   - scope:
       path: ""
@@ -262,34 +255,34 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _publications
+  # _projects
   - scope:
       path: ""
-      type: publications
+      type: projects
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _portfolio
+  # _research
   - scope:
       path: ""
-      type: portfolio
+      type: research
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
-  # _talks
+  # _summer_school
   - scope:
       path: ""
-      type: talks
+      type: summer_school
     values:
-      layout: talk
+      layout: single
       author_profile: true
-      share: true
+  # _certificates
+  - scope:
+      path: ""
+      type: certificates
+    values:
+      layout: single
+      author_profile: true
 
 
 # Sass/SCSS
