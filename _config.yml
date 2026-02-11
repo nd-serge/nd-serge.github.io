@@ -26,7 +26,7 @@ author:
   avatar           : "nd-profile.png" # filename of your profile photo placed in /images/
   name             : "Serge Ndoumin"
   pronouns         : "he/him" # example: "she/her"  
-  bio              : "Hello, I am Serge. I am passionate about data interested in applying Artificial Intelligence to next-generation network technologies." # A short bio or description about yourself
+  bio              : "Hello, I am Serge. I am interested in AI, ML and Next Generation Networks" # A short bio or description about yourself
   location         : "Bidart, France"
   uri              : # URL
   email            : "ndoumins@gmail.com" 
