@@ -11,9 +11,21 @@ redirect_from:
 
 Education
 ======
-* **MSc Bihar in Big Data and Artificial**, _Ecole Supérieure des Technologies Industrielles Appliquées (ESTIA)_, Bidart, France, 2026 (expected)
-* **MEng in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2020 
+* **M.Sc Bihar in Big Data and Artificial**, _Ecole Supérieure des Technologies Industrielles Appliquées (ESTIA)_, Bidart, France, 2026 (expected)
+* **M.Eng in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2020 
 * **Bachelor in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2018 
+
+Skills
+======
+* **API Development**: Flask, Fast API, Spring Boot
+* **Database**: MongoDB, PostGreSQL, Elastic Search
+* **Distributed Systems and Big Data**: PySpark, MQTT, Kafka
+* **Embedded Systems**: Arduino, Raspberry Pi 
+* **Frameworks Machine and Deep Learning**: Pytorch, TensorFlow, Scikit-learn
+* **MLOps**: Mlflow, Prefect, Grafana, Git, Docker, Makefile
+* **Network Simulators**: Mininet, Cisco Packet Tracer
+* **Programming Languages**: Python, Matlab, SQL
+* **Frameworks WebScraping**: Beautiful Soup, Selenium and Scrapy
 
 Work experience
 ======
@@ -31,18 +43,7 @@ Work experience
   * Trained participants on Machine Learning concepts during “Open Technology” workshops
   * Built and deployed Machine Learning models
   
-  
-Skills
-======
-* **API Development**: Flask, Fast API, Spring Boot
-* **Database**: MongoDB, PostGreSQL, Elastic Search
-* **Distributed Systems and Big Data**: PySpark, MQTT, Kafka
-* **Embedded Systems**: Arduino, Raspberry Pi 
-* **Frameworks Machine and Deep Learning**: Pytorch, TensorFlow, Scikit-learn
-* **MLOps**: Mlflow, Prefect, Grafana, Git, Docker, Makefile
-* **Network Simulators**: Mininet, Cisco Packet Tracer
-* **Programming Languages**: Python, Matlab, SQL
-* **Frameworks WebScraping**: Beautiful Soup, Selenium and Scrapy
+
 
 Summer Schools
 ======
