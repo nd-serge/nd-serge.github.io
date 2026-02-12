@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 * **M.Sc Bihar in Big Data and Artificial**, _Ecole Supérieure des Technologies Industrielles Appliquées (ESTIA)_, Bidart, France, 2026 (expected)
-* **M.Eng in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2020, _Master Thesis : [&quot;Development of a method for meteorological prediction in tropical areas
-using Machine Learning: case of Yaoundé&quot;](http://nd-serge.github.io/files/pfe-2020.pdf)_, advised by [Dr. Aurelle Tchagna]()
+* **M.Eng in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2020, _[&quot;Development of a method for meteorological prediction in tropical areas
+using Machine Learning: case of Yaoundé&quot;](http://nd-serge.github.io/files/pfe-2020.pdf)_, advised by [Dr. Aurelle Tchagna](https://www.researchgate.net/profile/Aurelle-Tchagna-Kouanou)
 * **Bachelor in Telecommunications**, _National Advanced School of Posts, Telecommunications and ICT (SUP'PTIC)_, Yaounde, Cameroon, 2018 
 
 Skills
