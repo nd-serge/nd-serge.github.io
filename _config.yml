@@ -221,6 +221,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  cv:
+    output: true
+    permalink: /:collection/:path/
   certificates:
     output: true
     permalink: /:collection/:path/
@@ -280,6 +283,12 @@ defaults:
   - scope:
       path: ""
       type: certificates
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: cv
     values:
       layout: single
       author_profile: true
